@@ -1,4 +1,4 @@
-#darK12
+# darK12
 
 Makes K12 dark.
 I don't want my eyes to be blind. So, I wrote this.
