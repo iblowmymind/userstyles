@@ -1,0 +1,295 @@
+/* ==UserStyle==
+@name           K12Net Dark Mode
+@namespace      https://github.com/iblowmymind/userstyles
+@homepageURL	https://github.com/iblowmymind/userstyles
+@supportURL		https://github.com/iblowmymind/userstyles/issues
+@updateURL		https://raw.githubusercontent.com/iblowmymind/userstyles/main/src/darK12/darK12.user.css
+@version        0.0.14
+@description    Just a dark mode for K12. Yes.
+@author         blw
+==/UserStyle== */
+@-moz-document url-prefix("https://okul.k12net.com"),
+regexp("^https?:\\/\\/[-\\w]+\\.k12net\\.com\\/.*"), regexp("^http?:\\/\\/[-\\w]+\\.k12net\\.com\\/.*") {
+    /* CSS Code */
+    /* Variables */
+    :root {
+        --background: #171716;
+        --dark1: #171716;
+        --dark2: #282827;
+        --dark3: #474745;
+        --dark4: #797977;
+        --text: #ececec;
+        --purple: #b281d2;
+        --darkpurple: #7b509c;
+        --orange: #db7106;
+        --darkorange: #a3480c;
+        --yellow: #fdbf4e;
+        --darkyellow: #cb9b00;
+        --blue: #54a4f3;
+        --cyan: #17a2b8;
+        --darkblue: #134eb2;
+        --green: #7dbc3d;
+        --darkgreen: #457b24;
+        --red: #e83b3f;
+        --darkred: #b7141f;
+    }
+
+    /* Main CSS */
+    /* Main Body Colors */
+    body {
+        background-color: var(--background);
+        color: var(--text);
+    }
+    /* Link Color */
+    a {
+        color: var(--blue);
+    }
+    /* HEADER */
+    /* Header Border */
+    header {
+        border-bottom: 1px solid var(--dark4);
+    }
+
+    /* Header Burger Menu */
+    .circle-icon {
+        background: var(--orange);
+        color: var(--text);
+    }
+
+    /* Header Navigation Buttons */
+    header .nav .desktop-nav-right-item a {
+        color: var(--orange);
+    }
+    .settings-button {
+        background: var(--orange);
+        color: var(--text);
+    }
+    .help-button {
+        background: var(--darkyellow);
+        color: var(--text);
+    }
+    .logout-button {
+        background: var(--darkpurple);
+        color: var(--text);
+    }
+    .btn-light {
+        color: var(--text);
+        background-color: var(--dark2);
+        border-color: var(--dark4);
+    }
+    /* Year Picker Button */
+    .dropdown-menu {
+        color: var(--text);
+        background-color: var(--dark2);
+        border: 1px solid var(--dark4);
+    }
+    /* Year Picker Dropdown */
+    .dropdown-item.active,
+    .dropdown-item:active {
+        color: var(--text);
+        background-color: var(--blue);
+    }
+    /* Active Dropdown Item */
+    .dropdown-item {
+        color: var(--text);
+    }
+    /* Inactive Dropdown Item */
+    /* END OF HEADER */
+    /* BODY */
+    /* Primary Content Element */
+    .content-detail-list .detail {
+        background: var(--dark2);
+    }
+    .content-detail-list .detail ul li .left {
+        color: var(--orange);
+    }
+    .m-main-content ul li {
+        background: var(--dark2);
+    }
+    .content-detail-list .detail {
+        border: 1px solid var(--dark4);
+    }
+    /* Content Borders */
+    .content-detail-list .detail ul li {
+        border-bottom: 1px solid var(--dark4);
+    }
+    /* Content Borders */
+    /* Dashboard */
+    .dashboard-leftsection {
+        border-right: 1px solid var(--dark4);
+    }
+    .dashboard-leftsection .bg .asideBackground {
+        background: linear-gradient(to right, var(--orange) 30%, var(--red) 100%)
+    }
+    /* Menu BG */
+    .student {
+        background: var(--dark2);
+    }
+    /* Student Info Card BG */
+    .student-action-round.white {
+        background: var(--dark3);
+    }
+    /* Table Popups */
+    .table thead {
+        background-color: var(--orange);
+        color: var(--text);
+    }
+    .table-striped > tbody > tr:nth-of-type(2n+1) {
+        background-color: var(--dark3);
+    }
+    .table-bordered > tbody > tr > td {
+        border-color: var(--dark4);
+    }
+    .table-bordered td,
+    .table-bordered th {
+        border: 1px solid var(--dark4);
+    }
+    .table-bordered > thead > tr > th,
+    .table-bordered > tfoot > tr > td {
+        border-color: var(--dark4);
+    }
+    .table thead th {
+        border-bottom: 2px solid var(--dark4);
+    }
+    .form-control {
+        background-color: var(--dark3);
+        color: var(--text);
+        border: 1px solid var(--dark4);
+    }
+    /* Homework 2n Color (Diff. Color thingy idk) */
+    .table-striped > tbody > tr:nth-of-type(2n) {
+    background-color: #db710666;
+    }
+    /* MAIN PAGE BUTTONS */
+    /* Common Elements */
+    .box .info,
+    .box .title {
+        color: var(--text);
+    }
+    .box .icon {
+        color: var(--text);
+    }
+    .box .badged-menu-item .count {
+        background: var(--text);
+        color: var(--orange);
+    }
+    .card {
+        background-color: var(--dark2);
+    }
+    /* The actual unread messages/HWs */
+    .dashboard .content-list ul li.unread {
+        border-color: var(--dark4);
+        background: var(--dark3);
+    }
+    /* The actual read messages/HWs */
+    .dashboard .content-list ul li.read {
+        border-color: var(--dark4);
+        background: var(--dark2);
+    }
+    .m-modal .modal-header {
+        background: var(--orange);
+        color: var(--text);
+    }
+    .modal-content {
+        border-color: var(--orange);
+        background-color: var(--dark2);
+    }
+    .btn-info {
+        color: var(--text);
+    }
+    .content-list ul li .wrapper .icon i {
+        color: var(--text);
+    }
+    .popover {
+        background-color: var(--dark3);
+    }
+    .popover-body {
+        color: var(--text);
+    }
+    .popover-header {
+        background-color: var(--dark2);
+        border-bottom: 1px solid var(--dark4);
+        color: var(--text);
+    }
+    /* File Addons */
+    .list-group-item {
+        background-color: var(--dark3);
+    }
+
+    /* "Sections" */
+    .box.section .box-hack {
+        background: linear-gradient(45deg, var(--orange) 25%, var(--darkorange) 100%);
+    }
+    .section .m-button-section {
+        background: var(--darkorange);
+        color: var(--text);
+    }
+    .orange {
+        background-color: var(--orange);
+    }
+    .section .m-main-footer .main-cta,
+    .section .m-main-footer .main-pagination li.active {
+        background: var(--darkorange);
+    }
+    /* "Assignments" */
+    .box.assignment .box-hack {
+        background: linear-gradient(45deg, var(--darkyellow) 25%, var(--orange) 100%);
+    }
+    .assignment .m-button-assignment,
+    .assignment-detail .m-button-assignment {
+        background: var(--darkorange);
+        color: var(--text);
+    }
+    .button-edge:hover {
+        background: var(--darkpurple);
+    }
+    /* "Tutoring" */
+    .box.tutoring .box-hack {
+        background: linear-gradient(45deg, var(--red) 25%, var(--darkred) 100%);
+    }
+    /* "Messages" */
+    .box.message .box-hack {
+        background: linear-gradient(45deg, var(--green) 25%, var(--darkgreen) 100%);
+    }
+    .message .m-button-message {
+        background: var(--darkgreen);
+        color: var(--text);
+    }
+    .button-message.active {
+        background: var(--darkgreen);
+    }
+    .button-message:hover {
+        background: var(--darkpurple);
+    }
+    /* Message Details */
+    .message-detail-message {
+        background: var(--dark3);
+    }
+    .message-detail-message .name {
+        color: var(--purple);
+    }
+    div[class$="content-wrapper"] .date {
+        color: var(--orange);
+    }
+    .message-detail-message time {
+        color: var(--orange);
+    }
+    .message-detail-buttons button {
+        background: var(--dark4);
+        color: var(--text);
+    }
+    /* END OF MAIN PAGE BUTTONS */
+    /* END OF BODY */
+    /* FOOTER */
+    /* Footer Buttons */
+    .footer-menu li .footer-menu-wrapper .icon {
+        background: var(--dark2);
+        color: var(--text);
+    }
+    .footer-menu li .footer-menu-wrapper span {
+        color: var(--purple);
+    }
+
+    /* END OF FOOTER */
+    /* END OF CSS */
+}
