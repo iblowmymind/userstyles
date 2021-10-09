@@ -1,0 +1,74 @@
+/* ==UserStyle==
+@name           zoom.us Launch Meeting Dark Mode
+@namespace      https://github.com/iblowmymind/userstyles
+@homepageURL	https://github.com/iblowmymind/userstyles
+@supportURL		https://github.com/iblowmymind/userstyles/issues
+@updateURL		https://raw.githubusercontent.com/iblowmymind/userstyles/main/src/zoomjoin/zoomjoin.user.css
+@version        0.0.3
+@description    Makes the "Launch Meeting" dialogs dark so that I don't get blinded every time.
+@author         blw
+==/UserStyle== */
+@-moz-document regexp("^https?:\\/\\/[\\w]+\\.zoom\\.us\\/.*"),
+regexp("^http?:\\/\\/[\\w]+\\.zoom\\.us\\/.*"), url-prefix("https://zoom.us/j"), url-prefix("http://zoom.us/j"), url-prefix("https://www.zoom.us/j"), url-prefix("http://www.zoom.us/j") {
+    /* CSS Code */
+    /* Variables */
+    :root {
+        --background: #171716;
+        --dark1: #171716;
+        --dark2: #282827;
+        --dark3: #474745;
+        --dark4: #797977;
+        --text: #ececec;
+        --purple: #b281d2;
+        --darkpurple: #7b509c;
+        --orange: #db7106;
+        --darkorange: #a3480c;
+        --yellow: #fdbf4e;
+        --darkyellow: #cb9b00;
+        --blue: #54a4f3;
+        --cyan: #17a2b8;
+        --darkblue: #134eb2;
+        --green: #7dbc3d;
+        --darkgreen: #457b24;
+        --red: #e83b3f;
+        --darkred: #b7141f;
+    }
+    /* Main CSS */
+    /* Header */
+    #header_container {
+        background-color: rgba(23, 23, 22, .97);
+    }
+    /* Body Colors */
+    html,
+    body,
+    .inXzNydj h1,
+    .inXzNydj h2,
+    .inXzNydj h3,
+    .JkSR_S4i {
+        color: var(--text);
+        background: var(--dark2);
+    }
+    .inXzNydj hr {
+        background: var(--dark3);
+    }
+    /* Footer */
+    #footer_container {
+        background-color: rgba(40, 40, 39, .97);
+        color: rgba(236, 236, 247, 0.56);
+    }
+    /* Post Attendee */
+    #content-wrapper {
+        color: var(--text);
+        background: var(--dark2);
+    }
+    .launch-section {
+        background: var(--dark2);
+    }
+    .join-frame #content_container {
+        background: var(--dark2);
+    }
+    .join-frame #footer_container {
+        background-color: var(--dark1);
+        color: rgba(236, 236, 247, 0.56);
+    }
+}
