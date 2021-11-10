@@ -15,6 +15,12 @@ Enjoy, for it will probably be of no use to you.
 
 ## Changelog
 
+- 10.11.2021: Update to 0.0.18.2
+
+```
+- Fix buttons *again*.
+```
+
 - 10.11.2021: Update to 0.0.18.1
 
 ```
