@@ -4,7 +4,7 @@
 @homepageURL	https://github.com/iblowmymind/userstyles/tree/main/src/darK12
 @supportURL		https://github.com/iblowmymind/userstyles/issues
 @updateURL		https://raw.githubusercontent.com/iblowmymind/userstyles/main/src/darK12/darK12.user.css
-@version        0.0.18
+@version        0.0.18.1
 @description    Makes K12Net dark. I don't want my eyes to be blind. So, I wrote this. Enjoy, for it will probably be of no use to you.
 @author         blw (https://blw.carrd.co)
 @license        MIT
@@ -317,6 +317,10 @@ regexp("^https?:\\/\\/[-\\w]+\\.k12net\\.com\\/.*"), regexp("^http?:\\/\\/[-\\w]
     color: var(--text);
     background-color: var(--darkgreen);
     border-color: var(--darkgreen);
+  }
+  /* Fix for Buttons */
+  .btn {
+    color: var(--blue);
   }
   /* File Info Badge */
   .badge-info {
