@@ -17,26 +17,26 @@ Enjoy, for it will probably be of no use to you.
 
 - 10.11.2021: Update to 0.0.18.2
 
-```
+```markdown
 - Fix buttons *again*.
 ```
 
 - 10.11.2021: Update to 0.0.18.1
 
-```
+```markdown
 - Fixed button coloring.
 ```
 
 - 18.10.2021: Update to 0.0.18
 
-```
+```markdown
 - Updated the message send dialog.
 - Add button styling.
 ```
 
 - 17.10.2021: Update to 0.0.17.1
 
-```
+```markdown
 - Added better README & code re-factoring.
 - Also beginning of this changelog.
 ```
