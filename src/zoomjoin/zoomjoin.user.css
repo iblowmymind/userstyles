@@ -4,7 +4,7 @@
 @homepageURL	https://github.com/iblowmymind/userstyles
 @supportURL		https://github.com/iblowmymind/userstyles/issues
 @updateURL		https://raw.githubusercontent.com/iblowmymind/userstyles/main/src/zoomjoin/zoomjoin.user.css
-@version        0.0.3
+@version        0.0.4
 @description    Makes the "Launch Meeting" dialogs dark so that I don't get blinded every time.
 @author         blw
 ==/UserStyle== */
@@ -41,14 +41,14 @@ regexp("^http?:\\/\\/[\\w]+\\.zoom\\.us\\/.*"), url-prefix("https://zoom.us/j"),
     /* Body Colors */
     html,
     body,
-    .inXzNydj h1,
-    .inXzNydj h2,
-    .inXzNydj h3,
-    .JkSR_S4i {
+    .bhauZU7H h1,
+    .bhauZU7H h2,
+    .bhauZU7H h3,
+    .I0MG3p8Q {
         color: var(--text);
         background: var(--dark2);
     }
-    .inXzNydj hr {
+    .bhauZU7H hr {
         background: var(--dark3);
     }
     /* Footer */
