@@ -123,6 +123,12 @@ regexp("^https?:\\/\\/[-\\w]+\\.k12net\\.com\\/.*"), regexp("^http?:\\/\\/[-\\w]
   .dashboard-leftsection .bg .asideBackground {
     background: linear-gradient(to right, var(--orange) 30%, var(--red) 100%);
   }
+  .announcement ul li {
+	background: var(--dark4);
+  }
+  .announcement ul li .wrapper .count {
+	color: var(--text);
+  }
   /* Menu BG */
   .student {
     background: var(--dark2);
