@@ -326,10 +326,10 @@ regexp("^https?:\\/\\/[-\\w]+\\.k12net\\.com\\/.*"), regexp("^http?:\\/\\/[-\\w]
     background-color: var(--darkgreen);
     border-color: var(--darkgreen);
   }
-  /* Fix for Buttons */
-  .btn {
+  /* Fix for Buttons (Breaks Messages?)*/
+  /* .btn {
     color: var(--text);
-  }
+  } */
   /* File Info Badge */
   .badge-info {
     color: var(--text);
