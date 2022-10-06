@@ -1,0 +1,152 @@
+/* ==UserStyle==
+@name           ActivelyDark
+@namespace      github.com/openstyles/stylus
+@homepageURL	https://github.com/iblowmymind/userstyles/tree/main/src/ActivelyDark
+@supportURL		https://github.com/iblowmymind/userstyles/issues
+@updateURL		https://raw.githubusercontent.com/iblowmymind/userstyles/main/src/ActivelyDark/ActivelyDark.user.css
+@version        0.0.1.0
+@description    Makes Actively Learn dark for my eyes.
+@author         blw
+@license		MIT
+==/UserStyle== */
+
+@-moz-document domain("read.activelylearn.com") {
+    /* ====== CSS ====== */
+    
+    
+    /* ====== COLORS ====== */
+    
+    :root {
+        --label-text-color: #cecece8a !important;
+    }
+    
+    /* ====== END OF COLORS ====== */
+    
+    
+    /* ====== MAIN PAGE ====== */
+    
+    .contentWrapper {
+        background-color: #232322;
+    }
+    .rightDrawerMenu_pageDrawer__2kwL2 {
+        background-color: #232322;
+    }
+    .rightDrawerMenu_pageDrawer__2kwL2.rightDrawerMenu_open__2lgzW {
+        border-left: 4px solid #2f2f2f;
+    }
+    .headerWrapper {
+        background-color: #2f2f2f;
+    }
+    .btn-tab {
+        color: #7d8487;
+    }
+    
+    /* ====== END OF MAIN PAGE ====== */
+    
+    
+    /* ====== TOP BAR ====== */
+    
+    /* Home MENU Button */
+    .styles_buttonGroup__1ub4a.styles_square__uVMh5 a, .styles_buttonGroup__1ub4a.styles_square__uVMh5 button {
+        border-right: 1px solid #272729;
+    }
+    .alfe10 {
+        background: #2f2f2f;
+    }
+    .alfe1 {
+        color: #7d8487;
+    }
+    .styles_buttonGroup__1ub4a.styles_square__uVMh5 a svg, .styles_buttonGroup__1ub4a.styles_square__uVMh5 button svg {
+        fill: #5c5c5f;
+        stroke: #5c5c5f;
+    }
+    
+    /* Header Buttons */
+    .alfe11 {
+        background: #4c4c4f;
+    }
+    .alfe11 svg {
+        fill: #efefef;
+        stroke: #dfdfdf;
+    }
+    .alfe11:hover, .alfe11.alfe15 {
+        background: #0087d1;
+    }
+    .alfe11:hover svg, .alfe11.alfe15 svg {
+        fill: #efefef;
+        stroke: #dfdfdf;
+    }
+    
+    /* ====== END OF TOP BAR ====== */
+    
+    
+    /* ====== CONTENT ====== */
+    
+    /* Tile Colors */
+    .tile .tileHeader, .topictile .tileHeader {
+	    background-color: #3b3b3b;
+	    color: #bfbfbf;
+    }
+    .tile, .topictile {
+	    background-color: #3a3a3c;
+    }
+    .tile .tileHeader .author, .topictile .tileHeader .author {
+	    color: #84afc4;
+    }
+    .textTypeLabel.skyBlue, .tile .banner.skyBlue, .topicTile .banner.skyBlue {
+	    background-color: #93b5d5;
+    }
+    .textTypeLabel.pink, .tile .banner.pink, .topicTile .banner.pink {
+	    background-color: #eea3f4;
+    }
+    
+    /* Assignment Info Popup */
+    .MuiPaper-root {
+	    background-color: #2f2f2f;
+	    color: #bfbfbfde;
+    }
+    .heading, .noteMediaContainer span, .timeago {
+        color: #fff;
+    }
+    
+    /* Sort Assignments */
+    .alfe35, .alfe167, .alfe165 {
+        color: #7d8487;
+    }
+    .icon-sort::before {
+        color: #7d8487;
+    }
+    
+    /* Dropdowns */
+    .css-ail42v-control, .css-c5zvie-control, .css-ogcvmz-control {
+        background-color: #3b3b3b;
+        border-color: #232322;
+    }
+    .css-1lotarl-placeholder, .css-1neebod-singleValue {
+        color: #8f8f8f;
+    }
+    .css-109onse-indicatorSeparator {
+        background-color: #8f8f8f;
+    }
+    .css-tlfecz-indicatorContainer, .css-ub81np-indicatorContainer {
+        color: #8f8f8f;
+    }
+    
+    /* Sticky Scroll Header */
+    .alfe24 {
+        background-color: #2a2a2b;
+    }
+    .pageHeader {
+        padding: 10px 30px;
+    }
+    
+    /* Grades Table */
+    .styles_primaryTable__2Na6- th, .styles_primaryTable__2Na6- td {
+	    background-color: #2f2f2f;
+    }
+    
+     /* ====== END OF CONTENT ====== */
+    
+    
+     /* ====== END OF CSS ====== */
+}
