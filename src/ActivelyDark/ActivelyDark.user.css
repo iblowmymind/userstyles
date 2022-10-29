@@ -22,7 +22,23 @@
     
     /* ====== END OF COLORS ====== */
     
-    
+	/* ====== LOGIN PAGE ====== */
+	
+	.MuiOutlinedInput-notchedOutline {
+		border-color: #bfbfbfde;
+	}
+	.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+		border-color: #efefefde;
+	}
+	.MuiInputBase-root {
+		color: #bfbfbfde;
+	}
+	.MuiFormLabel-root {
+		color: #bfbfbfde;
+	}
+
+    /* ====== END OF LOGIN PAGE ====== */
+	
     /* ====== MAIN PAGE ====== */
     
     .contentWrapper {
