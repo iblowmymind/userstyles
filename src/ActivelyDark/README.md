@@ -15,6 +15,12 @@ Enjoy, for it will probably be of no use to you.
 
 ## Changelog
 
+- 05.03.2023: Update to 0.0.3.0
+
+```markdown
+- Fix to content sidebar
+```
+
 - 16.10.2022: Update to 0.0.1.0
 
 ```markdown
