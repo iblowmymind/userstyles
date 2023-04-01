@@ -4,7 +4,7 @@
 @homepageURL	https://github.com/iblowmymind/userstyles/tree/main/src/ActivelyDark
 @supportURL		https://github.com/iblowmymind/userstyles/issues
 @updateURL		https://raw.githubusercontent.com/iblowmymind/userstyles/main/src/ActivelyDark/ActivelyDark.user.css
-@version        0.0.3.0
+@version        0.0.4.0
 @description    Makes Actively Learn dark for my eyes.
 @author         blw
 @license		MIT
@@ -72,6 +72,9 @@
     .styles_buttonGroup__1ub4a.styles_square__uVMh5 a, .styles_buttonGroup__1ub4a.styles_square__uVMh5 button {
         border-right: 1px solid #272729;
     }
+	.styles_buttonGroup__ahmw4v3izaj.styles_square__3q3pmdnfni3 a, .styles_buttonGroup__0kkeq9leo2b.styles_square__jg82gbggvv button {
+		border-right: 1px solid #272729;
+	}
     .alfe10 {
         background: #2f2f2f;
     }
@@ -82,6 +85,10 @@
         fill: #5c5c5f;
         stroke: #5c5c5f;
     }
+	.styles_buttonGroup__snxgp1g4qvd.styles_square__ouk1ktgaws a svg, .styles_buttonGroup__a06bq52smlu.styles_square__narox0gw77 button svg {
+		fill: #7d8487;
+		stroke: #7d8487;
+	}
     
     /* Header Buttons */
     .alfe11 {
@@ -138,6 +145,12 @@
     .icon-sort::before {
         color: #7d8487;
     }
+	.rightDrawerMenu_pageDrawer__tomly0qusm {
+		background-color: #282828;
+	}
+	.rightDrawerMenu_pageDrawer__47xas2id1lx.rightDrawerMenu_open__fq6bxk6wcu8 {
+		border-left: 4px solid #333334;
+	}
     
     /* Dropdowns */
     .css-ail42v-control, .css-c5zvie-control, .css-ogcvmz-control {
